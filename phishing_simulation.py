@@ -27,7 +27,7 @@ def show_awareness_screen():
     tk.Label(root, text="This was a phishing simulation!",
              font=("Segoe UI", 15, "bold"), bg="#f4f6f9", fg="#1e3c72").pack(pady=(25, 10))
     intro = ("You just experienced what a phishing attempt looks like.\n"
-             "'NimbusMail' is not a real service - this was built only\n"
+             "'HackerMail' is not a real service - this was built only\n"
              "to demonstrate how easily these attacks work.")
     tk.Label(root, text=intro, font=("Segoe UI", 10), bg="#f4f6f9", justify="left").pack(pady=(0, 15))
     red_flags = (
@@ -58,7 +58,7 @@ def build_login_screen():
     global email_entry, password_entry
     frame = tk.Frame(root, bg="white", padx=30, pady=30)
     frame.pack(pady=40)
-    tk.Label(frame, text="Cybermail", font=("Segoe UI", 16, "bold"),
+    tk.Label(frame, text="HackerMail", font=("Segoe UI", 16, "bold"),
              bg="white", fg="#1e3c72").pack()
     tk.Label(frame, text="Sign in to continue to your inbox", font=("Segoe UI", 9),
              bg="white", fg="#555").pack(pady=(0, 10))
@@ -76,7 +76,7 @@ def build_login_screen():
     tk.Label(frame, text="(Simulated training page - no real data is transmitted)",
              font=("Segoe UI", 7), bg="white", fg="#999").pack(pady=(10, 0))
 root = tk.Tk()
-root.title("Cybermail - Sign In")
+root.title("HackerMail - Sign In")
 root.geometry("400x480")
 root.resizable(False, False)
 build_login_screen()
