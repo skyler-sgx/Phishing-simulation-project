@@ -26,11 +26,13 @@ When a user enters credentials into the simulated "HackerMail" login form, the a
 | Timestamps | `datetime` module |
 
 # Project Structure
+```
 phishing-awareness-simulator/
 │
 ├── main.py              # Application entry point
 ├── submissions.csv      # Auto-generated log file (created on first run)
 └── README.md            # Project documentation
+```
 
 # Prerequisites
 - Python 3.7 or higher
