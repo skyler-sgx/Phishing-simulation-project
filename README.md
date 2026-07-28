@@ -66,10 +66,7 @@ Using this tool against individuals without their informed consent may violate c
 - Portfolio project showcasing social engineering awareness
 - Workshops on identifying phishing red flags
 
+# Author
+Shivani Gupta
 
-## 👤 Author
-
-Built as a hands-on demonstration of phishing tactics and user security awareness.
-
-If you found this useful, consider ⭐ starring the repo!
 
